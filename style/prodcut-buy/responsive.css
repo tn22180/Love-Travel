@@ -1,0 +1,57 @@
+@media (max-width: 1023px) {
+
+        .header-shop-page{
+            padding-top: 80% !important;
+        }
+        .table{
+            display: none !important;
+        }
+        .cart-total-mobile{
+            display: block !important;
+        }
+}      
+@media (max-width: 740px){
+    .content-detail-information{
+        flex-direction: column;
+    }
+    .order-success,
+    .content-detail-peoples
+    {
+        flex-direction: column;
+        
+    }
+    .content-detail-peoples select{
+        margin: 12px 0;
+    }
+    .clear-btn{
+        margin: 0;
+    }
+    .content-detail-amount{
+        flex-direction: column;
+    }
+    .content-detail-amount input{
+        margin: 20px 0;
+    }
+    .content-detail-amount button{
+        margin: 0;
+        padding: 10px 0;
+    }
+    .order-success{
+        height: unset;
+        padding-bottom: 10px !important;
+    }
+    .payment_methods button{
+        width: 100%;
+    }
+    .bill-info{
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .bill-info div::after{
+        display: none;
+    }
+    .btn-apply-coupon{
+        margin-top: 20px;
+    }
+}

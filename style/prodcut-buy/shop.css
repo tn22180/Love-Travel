@@ -1,0 +1,410 @@
+.header{
+    background-image: url("http://www.nicdarkthemes.com/themes/travel/wp/demo/love-travel/wp-content/uploads/sites/3/2018/11/parallax-4-1.jpg") !important;
+    padding-top: 40% !important;
+}
+.header::before{
+    position: absolute;
+    content: "";
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.product__cart{
+    margin-top: 30px;
+}
+.product__cart-name{
+    margin: 20px 0 0 0;
+    color: #555;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+.product__cart-rating i{
+    font-size: 12px;
+    color: #9A9A9A;
+    margin-bottom: 10px;
+}
+.product__cart-price{
+    color: #9A9A9A;
+    font-size: 17px;
+}
+.product__cart-price-sale-off{
+    text-decoration: line-through;
+    color: #CDCDCD;
+}
+.product__cart-option{
+    width: 60%;
+    border: 1px solid #9A9A9A;
+    margin-top: 20px;
+}
+.product__cart-option a{
+    font-size: 14px;
+    display: block;
+    text-decoration: none;
+    height: 34px;
+    width: 100%;
+    line-height: 34px;
+    text-align: center;
+    color: #9A9A9A;
+}
+.product-cart-sale{
+    height: 29px;
+    width: 53px;
+    background-color: #35A8A9;
+    text-align: center;
+    line-height: 29px;
+    color: #fff;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.product__cart-img{
+    position: relative;
+}
+.product__cart-img img{
+    transform: scale(1);
+    transition: transform .5s linear;
+}
+.product__cart-img img:hover{
+    transform: scale(1.2);
+    
+}
+.product__cart-about a{
+    text-decoration: none;
+}
+.content-detail-imgs .slick-dots{
+    top: unset !important;
+    position: unset !important;
+    justify-content: center !important;
+    padding-left: 0  !important;
+    transform: unset !important;
+    left: unset !important;
+}
+.content-detail-imgs .slick-dots li{
+    margin: auto;
+}
+.slick-dots li button{
+
+    /* height: 104px !important; */
+    margin: 4px !important;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 50% !important;
+}
+.slick-dots li:first-child button{
+    background-image: url('http://www.nicdarkthemes.com/themes/travel/wp/demo/love-travel/wp-content/uploads/sites/3/2018/05/shop-6.jpg');
+}
+.slick-dots li:nth-child(2) button{
+    background-image: url('http://www.nicdarkthemes.com/themes/travel/wp/demo/love-travel/wp-content/uploads/sites/3/2018/05/shop-2.jpg');
+
+}
+.slick-dots li:nth-child(3) button{
+    background-image: url('http://www.nicdarkthemes.com/themes/travel/wp/demo/love-travel/wp-content/uploads/sites/3/2018/05/shop-1.jpg');
+
+}
+.slick-dots li:nth-child(4) button{
+    background-image: url('http://www.nicdarkthemes.com/themes/travel/wp/demo/love-travel/wp-content/uploads/sites/3/2018/05/shop-3.jpg');
+
+}
+.slick-dots li:nth-child(5) button{
+    background-image: url('http://www.nicdarkthemes.com/themes/travel/wp/demo/love-travel/wp-content/uploads/sites/3/2018/05/shop-4.jpg');
+
+}
+.content-detail-imgs img{
+    width: 100%;
+}
+.content-detail-img img{
+    border-radius: 5px;
+    margin-bottom: 4px;
+}
+.content-detail-imgs .slick-active button{
+    border: #F8656F 2px solid;
+}
+.content-detail-desc{
+    margin-top: 30px;
+
+}
+.content-detail-desc p{
+    color: #9A9A9A;
+    line-height: 1.6;
+    letter-spacing: 1px;
+}
+.content-detail-peoples{
+    display: flex;
+    margin: 30px 0; 
+}
+.content-detail-peoples label{
+    margin-right: 80px;
+}
+.content-detail-amount input,
+.content-detail-peoples select{
+    height: 40px;
+    width: 250px;
+    border-radius: 30px;
+    border: none;
+    background-color: #EEE;
+    padding: 0 40px;
+    color: #9A9A9A;
+    outline: none;
+}
+.clear-btn{
+    width: 80px;
+    height: 40px;
+    border: none;
+    margin-left: 20px;
+    background-color: #F8656F;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+}
+.content-detail-amount{
+    display: flex;
+}
+.content-detail-amount button{
+    width: 200px;
+    outline: none;
+    border: none;
+    background-color: #35A8A9;
+    color: #fff;
+    margin-left: 20px;
+}
+.content-detail-list{
+    list-style: none;
+    padding-left: 0;
+    margin-top: 30px;
+}
+.content-detail-list li{
+    margin-top: 20px;
+    display: flex;
+}
+.content-detail-list li a{
+    display: block;
+    text-decoration: none;
+    color: #9A9A9A;
+    margin-left: 8px;
+    padding: 0 10px;
+    border: 1px solid #CDCDCD   ;
+}
+.content-detail-information{
+    display: flex;
+    border-bottom: 1px solid #CDCDCD   ;
+}
+.content-detail-information div{
+    height: 100%;
+    font-size: 20px;
+    letter-spacing: 2px;
+    color: #555;
+    padding: 20px 15px;
+    position: relative;
+}
+.content-detail-information div::after{
+    position: absolute;
+    content: "";
+    height: 1px;
+    width: 100%;
+    background-color: #35A8A9;
+    bottom: 0;
+    left: 0;
+    display: none;
+}
+.content-detail-doc{
+    margin: 20px 0 40px;
+}
+.content-detail-information div:first-child::after{
+    display: block;
+}
+.content-detail-description p{
+    color: #9A9A9A;
+    line-height: 1.6;
+    letter-spacing: 2px;
+}
+.content-detail-description h3{
+    color:#555;
+}
+.order-success{
+    background-color: #35A8A9;
+    margin:40px 0;
+    padding: 0 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    line-height: 60px;
+    display: none;
+}
+.order-success p{
+    margin: 0;
+    color: #fff;
+}
+.order-success p i{
+    margin-right: 10px;
+}
+.content-carts
+{
+    margin: 60px 0;
+}
+.view-cart a{
+    width: 127px;
+    height: 34px;
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    background-color: #434A54;
+    text-align: center;
+    line-height: 34px;
+    /* width: 100%; */
+    
+}
+.view-cart a:hover{
+    color: #fff;
+    opacity: 0.8;
+}
+.text-cart{
+    color: #9A9A9A;
+}
+.form-cart{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cart-total-mobile{
+    margin: 40px 0;
+    /* display: none; */
+}
+.cart-total-heading{
+    color: #555;
+}
+.cart-total-table{
+    width: 100%;
+    border: 1px solid #EEE;
+    margin: 40px 0 20px;
+}
+.cart-subtotal{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:20px 30px;
+    border-bottom: 1px solid #EEE;
+}
+.cart-subtotal p{
+    margin: 0;
+    color: #9A9A9A;
+}
+.cart-subtotal:last-child{
+    border-bottom: none;
+}
+.checkout-btn a{
+    display: block;
+    width: 100%;
+    height: 57px;
+    line-height: 57px;
+    text-align: center;
+    background-color: #15B9D4;
+    color: #fff;
+    text-decoration: none;
+}
+.checkout-btn a:hover{
+    color: #fff;
+    opacity: 0.8;
+}
+.login-form{
+    display: none;
+    animation: FadeIn .5s linear;
+}
+
+.form-login{
+    padding: 20px;
+    border: 1px solid #EEE;
+    margin: 20px 0;
+}
+.form-login p{
+    color: #9A9A9A;
+}
+.submit-login button{
+    margin: 30px 0 20px;
+    border: none;
+    width: 80px;
+    height: 34px;
+    background-color: #15B9D4;
+    color:#fff;
+    font-size: 12px;
+}
+.submit-login input{
+    margin-left: 10px;
+}
+.submit-login label{
+    color:#9A9A9A;
+}
+.form-customer-name{
+    display: flex;
+    justify-content: space-between;
+}
+.form-customer-info-heading{
+    color: #555;
+    font-size: 30px;
+}
+.payment_methods{
+    background-color: #434A54;
+    padding: 20px 30px !important;
+   
+}
+.payment_methods label{
+    color: #fff;
+    margin-left: 16px;
+}
+.payment_method-description{
+    color: #979798;
+    display: none;
+}
+.form-checkbox-payment{
+    margin-bottom: 20px;
+}
+.payment_methods a{
+    display: block;
+    text-decoration: none;
+    right: 30px;
+    bottom: 30px;
+    border: none;
+    padding: 6px 20px;
+    color: #fff;
+    background-color: #15B9D4;
+    font-size: 14px;
+}
+.payment_methods a:hover{
+    color: #fff;
+    opacity: 0.8;
+}
+.bill{
+    margin: 50px 0 30px;
+}
+.bill-info{
+    display: flex;
+    align-items: center;
+    background-color: #F9F9F9;
+    border: 1px #F1F1F1 solid;
+    padding: 20px;
+}
+.bill-info p{
+    margin: 0;
+    color: #9A9A9A;
+}
+.bill-info span{
+    font-size: 12px;
+    color: #555;
+}
+.bill-info div{
+    margin-right: 40px;
+    position: relative;
+}
+.bill-info div::after{
+    content: "";
+    position: absolute;
+    /* width: 1px; */
+    height: 100%;
+    border: 0.5px #9A9A9A dashed;
+    right: -20px;
+    top: 0;
+}
+
+
